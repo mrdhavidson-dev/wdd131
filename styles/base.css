@@ -1,7 +1,15 @@
 .content{
     display: grid;
-    grid-template: auto 1fr auto;
-    border: 1px solid #ccc;}
+    grid-template-columns: 1fr ;
+    border: 1px solid #ccc;
+    gap: 20px;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+
+}
+
 header{
     background-color: #bbbcbb;
     text-align: center;
@@ -13,6 +21,7 @@ main{
     margin: auto;
     padding: 20px;
 }
+
 #course-title{
     display: block;
     background-color: bisque;
