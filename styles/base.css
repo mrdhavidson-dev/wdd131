@@ -2,11 +2,6 @@
     display: grid;
     grid-template: auto 1fr auto;
     border: 1px solid #ccc;
-   
-}
-nav{
-    justify-content: space-around;
-}
 
 #course-title{
     display: block;
@@ -58,7 +53,7 @@ nav{
     border: 1px solid#ccc;
     border-radius: 8px;
     padding: 1rem;
-    max-width: auto;
+    max-width: 100%;
  }
 
  .card h2 {
