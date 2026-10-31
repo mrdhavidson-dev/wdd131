@@ -1,0 +1,83 @@
+.content{
+    display: grid;
+    grid-template: auto 1fr auto;
+    border: 1px solid #ccc;
+   
+}
+nav{
+    justify-content: space-around;
+}
+
+#course-title{
+    display: block;
+    background-color: bisque;
+    padding: 12px;
+    text-align: center;
+}
+
+nav{
+    background-color: #666;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+ nav a{
+    color: #ffff;
+ }
+
+ h1 {
+    text-align: center;
+ }
+
+ .profile-img {
+   max-width: 200px;
+   height: auto;
+   float: right;
+   margin: 0 0 1rem 1rem;
+ }
+
+ .flag-figure {
+    float: left;
+    margin: 0 1rem 1rem 0;
+ }
+
+ .flag-figure img {
+    width: 200px;
+    height: auto;
+ }
+
+ figcaption {
+    font-style: italic;
+    text-align: center;
+    font-size: 0.9rem;
+ }
+
+ .card {
+    display: flow-root;
+    border: 1px solid#ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    max-width: auto;
+ }
+
+ .card h2 {
+    background-color: #666;
+    color: #ffff;
+    text-align: center;
+    padding: 0.5rem;
+    margin: -1rem -1rem 1rem;
+    border-radius: 8px 8px 0 0;
+ }
+
+ h3 {
+    text-align: center;
+ }
+
+
+footer{
+    background-color: #666;
+    color: #ffff;
+    padding: 12px;
+    text-align:center;
+}
