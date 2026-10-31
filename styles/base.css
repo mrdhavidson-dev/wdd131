@@ -1,8 +1,18 @@
 .content{
     display: grid;
     grid-template: auto 1fr auto;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc;}
+header{
+    background-color: #bbbcbb;
+    text-align: center;
+    padding: 10px 0;
+}
 
+main{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
 #course-title{
     display: block;
     background-color: bisque;
@@ -15,7 +25,6 @@ nav{
     padding: 10px;
     display: flex;
     justify-content: space-around;
-
 }
  nav a{
     color: #ffff;
@@ -27,7 +36,7 @@ nav{
 
  .profile-img {
    max-width: 200px;
-   height: auto;
+   height: 320px;
    float: right;
    margin: 0 0 1rem 1rem;
  }
@@ -65,12 +74,16 @@ nav{
     border-radius: 8px 8px 0 0;
  }
 
+ .card p {
+    font-size: 1.3rem;
+    line-height: 1.9;
+ }
  h3 {
     text-align: center;
  }
 
 
-footer{
+footer {
     background-color: #666;
     color: #ffff;
     padding: 12px;
