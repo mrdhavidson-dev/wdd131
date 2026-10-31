@@ -39,6 +39,10 @@ nav{
     color: #ffff;
  }
 
+ nav a :hover {
+    color: #f4a97a;
+ }
+
  h1 {
     text-align: center;
  }
@@ -74,6 +78,9 @@ nav{
     max-width: 100%;
  }
 
+ .card.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0,0, 0.3);
+ }
  .card h2 {
     background-color: #666;
     color: #ffff;
