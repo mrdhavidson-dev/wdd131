@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temple Album</title>
+  <meta name="description" content="A photo album of temples.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/temples.css">
+  <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 700px)">
+  <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+  <header>
+    <p class="site-title">Temple Album</p>
+    <button id="menu" aria-label="Toggle menu">☰</button>
+    <nav id="nav">
+      <a href="#">Home</a>
+      <a href="#">Old</a>
+      <a href="#">New</a>
+      <a href="#">Large</a>
+      <a href="#">Small</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Home</h1>
+    <figure>
+      <img src="images/temple.webp" alt="Temple 1" loading="lazy" width="400" height="250">
+      <figcaption>Temple 1</figcaption>
+    </figure>
+    <!-- Copy the figure above 8 more times (9 total), renaming each -->
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Your Name | Your Location</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>

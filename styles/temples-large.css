@@ -1,0 +1,36 @@
+/* Hide the hamburger on larger screens */
+#menu {
+  display: none;
+}
+
+/* Header: title on the left, nav on the right */
+header {
+  flex-wrap: nowrap;
+  padding: 1rem 2rem;
+}
+
+/* Always show nav, laid out in a row with Flex */
+nav {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  gap: 1.5rem;
+}
+
+nav a {
+  border-top: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+}
+
+nav a:hover,
+nav a:focus {
+  padding-left: 0.75rem; /* cancels the mobile slide effect */
+}
+
+/* Grid: multiple columns */
+main {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
