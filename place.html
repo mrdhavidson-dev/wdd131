@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover Ghana: facts about its people, places and current weather in Accra.">
+  <meta name="author" content="Honu David Kwablah">
+  <title>Ghana | Place to Visit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Ghana</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+        <img src="images/ghana.jpg" width="600" height="400"
+             alt="Coastal view of Ghana with palm trees and golden sand">
+     
+
+      <section class="card data">
+        <h2>Data</h2>
+        <dl>
+          <dt>Area:</dt><dd>238,535 sq km</dd>
+          <dt>Population:</dt><dd>About 34 million</dd>
+          <dt>Capital:</dt><dd>Accra</dd>
+          <dt>Languages:</dt><dd>English, Akan (Twi), Ewe, Ga</dd>
+          <dt>Currency:</dt><dd>Ghanaian Cedi (GH₵)</dd>
+          <dt>Time Zone:</dt><dd>UTC+0 (GMT)</dd>
+          <dt>Calling Code:</dt><dd>+233</dd>
+        </dl>
+      </section>
+
+      <section class="card weather">
+        <h2>Weather</h2>
+        <img class="weather-icon" src="images/weather.jpg" alt="Partly cloudy" width="48" height="48">
+        <dl>
+          <dt>Temperature:</dt><dd><span id="temp">31</span> °C</dd>
+          <dt>Conditions:</dt><dd>Partly Cloudy</dd>
+          <dt>Wind:</dt><dd><span id="wind">14</span> km/h</dd>
+          <dt>Wind Chill:</dt><dd id="windchill"></dd>
+        </dl>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Ghana Page | Honu David Kwablah | Ghana</p>
+    <p>Last modified: <span id="lastModified"></span></p>
+  </footer>
+</body> 
